@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/OSC.js"> </script>
+	</head>
+
+	<body>
+
+		Nom : <input type="text">
+		<br> <br>
+		Prénom : <input type="text">
+		<br> <br>
+		<div id="container"> 
+		
+		Année de naissance : <input type="text" name="Année de naissance" id="ADN"> <br> <br>
+		
+		Age : <input type="text" name="Age" id="Age" onclick="Age()"
+
+		</div>
+
+		<script type="text/JavaScript" >
+
+		function Age(){
+		
+		   var ADN = document.getElementById("ADN").value
+		
+		   document.getElementById("Age").value = 2021 - ADN
+		
+			}
+		</script>
+
+	</body>
+</html>

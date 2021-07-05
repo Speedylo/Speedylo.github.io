@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <title> Spotify Wish</title>
+
+    <nav>
+        <h1> Spotify Wish</h1>
+        <div style="text-align: right;">
+        <a href="Accueil.html"> Accueil </a>
+        <a href="#Contact"> Contact</a>
+        <a href="Connexion.html"> Connexion </a>
+        <a href="Inscription.html"> Inscription </a>    
+        </div>
+    </nav>
+
+    <section>
+        <audio id="sound1" class="sounds" src="eminem-lose-yourself-hd.mp3"></audio> 
+        <audio  id="sound2" class="sounds" src="bts-dynamite-official-mv.mp3"></audio> 
+        <audio  id="sound3" class="sounds"  src="bigflo-oli-bienvenue-chez-moi-clip-officiel.mp3"></audio>
+        
+        <button onclick="document.getElementById('sound1').play()"> <img src="https://static.booska-p.com/images/news_opti/1000/eminem-deux-de-ses-albums-parmi-les-moins-bien-notes.jpg" alt="Eminem" width="300" height="200"> </button>
+        <button onclick="document.getElementById('sound2').play()"> <img src="https://img0.yna.co.kr/etc/inner/FR/2021/06/17/AFR20210617001500884_01_i_P2.jpg" alt="BTS" width="300" height="200"> </button>
+        <button onclick="document.getElementById('sound3').play()"> <img src="https://www.1jour1actu.com/wp-content/uploads/DSC_1130BOBY-970x647.jpg" alt="BigFlo et Oli" width="300" height="200"> </button>
+        <button onclick="stopSounds()"> stopSounds </button>
+    </section>
+    </div>
+
+    <script>
+        var x = document.getElementsByClassName("sounds");
+        function stopSounds(){
+            for(let i=0;i<x.length;i++)
+            {
+                x[i].pause();
+            }
+                
+        }
+    </script>
+    </body>
+
+    <footer>
+        <br>
+        <br>
+        <hr>
+        <a name="Contact"></a>
+        <h3> Spotify Wish </h3>
+        <p> 0683015621 </p>
+        <p> younes.rahati@lilo.org </p>
+    </footer>
+</html>
