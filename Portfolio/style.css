@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "otomanopee one";
+}
+.navbar {
+    text-align: right;
+    display: block;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-decoration: none;
+    animation: smooth 2s;
+    
+}
+
+nav {
+    background-image: url(https://i2.wp.com/www.westagilelabs.com/blog/wp-content/uploads/2019/10/developer-3461405_1920-1.png?resize=1200%2C675&ssl=1);
+    height: 750px;
+}
+
+#blocktext {
+    margin: 250px;
+}
+
+@media (max-width: 1400px) {
+    #Contacter  {
+        background-color: black;
+        color: white;
+        height: 100%;
+    }
+}
+
+@media  (max-width: 576px) {
+    #Contacter  {
+        background-color: rgb(55, 0, 255);
+        color: white;
+        height: 100%;
+    }
+
+}
+
+.case {
+    width: 575px;
+    height: 30px;
+}
+
+.case, textarea {
+    border-color: white;
+    background-color: black;
+    border-style: solid;
+}
+
+::placeholder{
+    color: white;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+ 
+p {
+    line-height: 30px;
+}
+
+h2 {
+    margin: 20px;
+}
+
+#Contacter p{
+    margin: 10px;
+}
+
+@keyframes smooth {
+    0% {color: black;}
+    25% {color: rgb(56, 55, 55);}
+    50% {color: rgb(138, 138, 138);}
+    75% {color: rgb(196, 196, 196);}
+    100% {color: white;}
+}
+.Cards2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
